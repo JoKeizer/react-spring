@@ -11,13 +11,15 @@ import Nav from './components/Nav'
 // import Checkout from './components/Checkout'
 import CheckoutConfigurationOptions from './components/CheckoutConfigurationOptions'
 // import Routes from './Routes'
-import Modal from './components/Modal'
-import Accordion from './components/Accordion'
-import WayPoints from './components/WayPoints'
+// import Modal from './components/Modal'
+// import Accordion from './components/Accordion'
+// import WayPoints from './components/WayPoints'
 // import Gesture from './components/Gesture'
 // import GestureEvents from './components/GestureEvents'
 // import Boxes from './components/Boxes'
-import DraggableList from './components/DraggableList'
+// import BoxesTrail from './components/BoxesTrail'
+import BoxesUseChain from './components/BoxesUseChain'
+// import DraggableList from './components/DraggableList'
 
 const App = () => {
 
@@ -39,12 +41,12 @@ const App = () => {
 
 
   return (
-    <animated.div className="App" style={fade}>
+    <animated.div className="App" >
       <header className="App-header">
-        {/*<img src={logo} className="logo" />*/}
-        {/*<button onClick={() => setChartOpen(!isChartOpen)}className="menu-button">Chart</button>*/}
-        {/*<button onClick={() => setNavOpen(!isNavOpen)}className="menu-button">Menu</button>*/}
-        {/*<Nav style={navAnimation}/>*/}
+        <img src={logo} className="logo" />
+        <button onClick={() => setChartOpen(!isChartOpen)}className="menu-button">Chart</button>
+        <button onClick={() => setNavOpen(!isNavOpen)}className="menu-button">Menu</button>
+        <Nav style={navAnimation}/>
       </header>
       <main>
         {/*<Toggle/>*/}
@@ -58,7 +60,9 @@ const App = () => {
         {/*<Gesture/>*/}
         {/*<GestureEvents/>*/}
         {/*<Boxes/>*/}
-        <DraggableList items={'Lorem ipsum dolor sit'.split(' ')}/>
+        {/*<BoxesTrail/>*/}
+        <BoxesUseChain/>
+        {/*<DraggableList items={'Lorem ipsum dolor sit'.split(' ')}/>*/}
 
 
         {/*<Checkout isOpen={isChartOpen}/>*/}
