@@ -3,10 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lodash-es": "^4.17.15",
+    "lodash-move": "^1.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "2.1.8",
-    "react-spring": "^8.0.19"
+    "react-spring": "^8.0.19",
+    "react-use-gesture": "^7.0.15",
+    "react-waypoint": "^9.0.2",
+    "react-with-gesture": "^4.0.8",
+    "resize-observer-polyfill": "^1.5.1",
+    "save": "^2.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,5 +30,18 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoKeizer/react-spring.git"
+  },
+  "author": "Jo keizer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoKeizer/react-spring/issues"
+  },
+  "homepage": "https://github.com/JoKeizer/react-spring#readme"
 }
